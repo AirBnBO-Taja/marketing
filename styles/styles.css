@@ -1,6 +1,7 @@
 body{
     background-color: #2f6627;
-}
+    font-family:"Alegreya", serif;
+} 
 .bgImg{
     background-image: url(https://images.unsplash.com/photo-1451934403379-ffeff84932da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2142&q=80);
     background-size:cover;
@@ -76,6 +77,11 @@ button:hover{
 header{
     display:flex;
     background-color: #2f6627;
+    justify-content: center;
+    align-items: center;
+}
+.loginButton{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
