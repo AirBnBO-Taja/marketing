@@ -23,7 +23,7 @@
 }
 .floating-box{
     border-radius: 5%;
-    background-color: white;
+    background-color: rgb(158, 167, 156);
     opacity: 0.6;
     width: 50%;
     text-align: center;
@@ -94,7 +94,7 @@ button{
 }
 
 .person{
-    width: 30%;
+    width: 25%;
     flex-direction: column;
     text-align: center;
     padding: 2%;
