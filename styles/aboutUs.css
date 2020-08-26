@@ -1,9 +1,4 @@
-/* h1{
 
-}
- h2, p{
-
- } */
 
 .whole-page{
     background-color: rgb(158, 167, 156);
@@ -104,9 +99,19 @@ button{
 /* ______________________________________________________________ */
 
 
+@media (max-width: 800px){
+    .person{
+        width: 40%;
+    }
+}
+
 @media (max-width : 500px){
  
     .person{
-        width: 40%;
+        width: 80%;
+    }
+    header{  
+        display: flex;
+        flex-direction: column;
     }
 }
