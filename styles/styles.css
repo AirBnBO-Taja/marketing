@@ -5,7 +5,7 @@ body{
 .bgImg{
     background-image: url(https://images.unsplash.com/photo-1451934403379-ffeff84932da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2142&q=80);
     background-size:cover;
-    background-
+    /* background- */
     background-repeat: no-repeat;
     display: flex;
     align-items:center;
@@ -17,7 +17,7 @@ body{
     opacity: 90%;
 }
 .bgImg p{
-    color:rgb(198, 255, 169);
+    color:rgb(13, 36, 1);
 }
 nav{
     display: flex;
@@ -41,12 +41,14 @@ button{
 	border:1px solid #18ab29;
 	display:flex;
 	cursor:pointer;
-	color:#ffffff;
+	color: white;
 	font-family:Arial;
 	font-size:17px;
 	padding:16px 31px;
 	text-decoration:none;
     text-shadow:0px 1px 0px #2f6627;
+    margin-left: 10%;
+    position: absolute;
 }
 .myButton {
 	background-color:#44c767;
@@ -63,6 +65,11 @@ button{
     justify-content:center;
     align-items:center;
 }
+
+.box-button{
+    justify-content: center;
+}
+
 button:hover{
 	background-color:#5cbf2a;
 }
@@ -94,8 +101,8 @@ header{
 
 .floating-box{
     border-radius: 5%;
-    background-color: rgb(158, 167, 156);
-    opacity: 0.6;
+    background-color: rgba(158, 167, 156, 0.6);
+    /* opacity: 0.6; */
     width: 50%;
     text-align: center;
     padding: 5%;
